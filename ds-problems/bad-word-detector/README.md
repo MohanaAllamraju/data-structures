@@ -8,4 +8,4 @@
 - A bad word could be any length
 - A User name could be any length
 
-### An easy and inefficient solution would be iterating over list of bad words and find the bad word in user name.
+#### An easy and inefficient solution would be iterating over list of bad words and find the bad word in user name.
