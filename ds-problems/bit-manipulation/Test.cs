@@ -16,6 +16,8 @@ namespace ds_problems.bit_manipulation
             Assert.Equal(finder.FindMaxLengthOfTwoWordsWhichAreUnique(new string[] { "abcw", "baz", "foo", "bar", "xtfn", "abcdef" }), 16);
             Assert.Equal(finder.FindMaxLengthOfTwoWordsWhichAreUnique(new string[] { "hello", "world", "any", "item", "thing", "welcome" }), 35);
             Assert.Equal(finder.FindMaxLengthOfTwoWordsWhichAreUnique(new string[] { "gajani", "ramba", "urvasi", "menaka", "thamanna", "charmi" }), 0);
+            Assert.Equal(finder.FindMaxLengthOfTwoWordsWhichAreUnique(new string[] { "a", "ab", "abc", "d", "cd", "bcd", "abcd" }), 4);
+            Assert.Equal(finder.FindMaxLengthOfTwoWordsWhichAreUnique(new string[] { "a", "aa", "aaa", "aaaa" }), 0);
         }
 
         [Fact]
@@ -30,6 +32,8 @@ namespace ds_problems.bit_manipulation
             Assert.Equal(finder.MaxProduct(new string[] { "abcw", "baz", "foo", "bar", "xtfn", "abcdef" }), 16);
             Assert.Equal(finder.MaxProduct(new string[] { "hello", "world", "any", "item", "thing", "welcome" }), 35);
             Assert.Equal(finder.MaxProduct(new string[] { "gajani", "ramba", "urvasi", "menaka", "thamanna", "charmi" }), 0);
+            Assert.Equal(finder.MaxProduct(new string[] { "a", "ab", "abc", "d", "cd", "bcd", "abcd" }), 4);
+            Assert.Equal(finder.MaxProduct(new string[] { "a", "aa", "aaa", "aaaa" }), 0);
         }
     }
 }
