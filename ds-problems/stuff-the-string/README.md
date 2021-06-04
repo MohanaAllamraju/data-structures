@@ -8,16 +8,16 @@
 
 #### for example
 
-X = 20
+#### X = 20
 
-input: 'IdontHaveAnyIssues'
-output: 'IdontHaveAnyIssuesss' // stuffing characters could be anything
+#### input: 'IdontHaveAnyIssues'
+#### output: 'IdontHaveAnyIssuesss' // stuffing characters could be anything <br /><br />
 
-input: 'IdontHaveAnyIssues'
-output: 'IdontHaveAnyIssuesaa' // stuffing characters could be anything
+#### input: 'IdontHaveAnyIssues'
+#### output: 'IdontHaveAnyIssuesaa' // stuffing characters could be anything <br /><br />
 
-input: 'KnowledgeSharingSessionsAreAnnouncedThroughOutSemesters'
-output: 'KnowledgeSharingSess' // stuffing characters could be anything
+#### input: 'KnowledgeSharingSessionsAreAnnouncedThroughOutSemesters'
+#### output: 'KnowledgeSharingSess' // stuffing characters could be anything <br /><br />
 
-input: 'KnowledgeSharingSessionsAreAnnouncedThroughOutSemesters'
-output: 'KnowledgeSharingSes1' // stuffing characters could be anything
+#### input: 'KnowledgeSharingSessionsAreAnnouncedThroughOutSemesters'
+#### output: 'KnowledgeSharingSes1' // stuffing characters could be anything <br /><br />
