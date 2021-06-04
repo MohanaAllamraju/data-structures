@@ -4,6 +4,8 @@
 [Rr]elease/
 x64/
 build/
+v16/
+DesignTimeBuild/
 bld/
 [Bb]in/
 [Oo]bj/
