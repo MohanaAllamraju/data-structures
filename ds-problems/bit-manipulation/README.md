@@ -2,21 +2,24 @@
 
 #### Example 2:
 
-```Given ["abcw", "baz", "foo", "bar", "xtfn", "abcdef"]
+```
+Given ["abcw", "baz", "foo", "bar", "xtfn", "abcdef"]
 Return 16
 The two words can be "abcw", "xtfn"
 ```
 
 #### Example 2:
 
-```Given ["a", "ab", "abc", "d", "cd", "bcd", "abcd"]
+```
+Given ["a", "ab", "abc", "d", "cd", "bcd", "abcd"]
 Return 4
 The two words can be "ab", "cd".
 `````
 
 #### Example 3:
 
-````Given ["a", "aa", "aaa", "aaaa"]
+````
+Given ["a", "aa", "aaa", "aaaa"]
 Return 0
-No such pair of words.```
+No such pair of words.
 ````
