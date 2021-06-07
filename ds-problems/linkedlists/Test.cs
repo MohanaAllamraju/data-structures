@@ -89,5 +89,32 @@ namespace ds_problems.linkedlists
 
             Assert.Equal(detectLoopClass.detectAndFindFirstLoop(detectLoopClass.Head).data, 5);
         }
+
+        [Fact]
+        public void Test_AddOne()
+        {
+            var addOne = new PlusOneLinkedList();
+            addOne.Head = new Node(5);
+            addOne.Head.next = new Node(8);
+            addOne.Head.next.next = new Node(9);
+            addOne.AddOne();
+            Assert.Equal(5, addOne.Head.data);
+            Assert.Equal(9, addOne.Head.next.data);
+            Assert.Equal(0, addOne.Head.next.next.data);
+        }
+
+        [Fact]
+        public void Test_AddOne_Should_Add_Node()
+        {
+            var addOne = new PlusOneLinkedList();
+            addOne.Head = new Node(9);
+            addOne.Head.next = new Node(9);
+            addOne.Head.next.next = new Node(9);
+            addOne.AddOne();
+            Assert.Equal(1, addOne.Head.data);
+            Assert.Equal(0, addOne.Head.next.data);
+            Assert.Equal(0, addOne.Head.next.next.data);
+            Assert.Equal(0, addOne.Head.next.next.next.data);
+        }
     }
 }
