@@ -116,5 +116,21 @@ namespace ds_problems.linkedlists
             Assert.Equal(0, addOne.Head.next.next.data);
             Assert.Equal(0, addOne.Head.next.next.next.data);
         }
+
+        [Fact]
+        public void Test_Queue_Using_LL()
+        {
+            var queue = new QueueUsingLL();
+            queue.Enqueue(1);
+            queue.Enqueue(2);
+            queue.Enqueue(3);
+            queue.Enqueue(4);
+            queue.Enqueue(5);
+            Assert.Equal(1, queue.Peek());
+            queue.Dequeue();
+            Assert.Equal(2, queue.Peek());
+            queue.Dequeue();
+            Assert.Equal(3, queue.Peek());
+        }
     }
 }
